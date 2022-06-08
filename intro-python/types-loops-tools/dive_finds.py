@@ -56,6 +56,11 @@ def create_dive_finds(number_dives):
     # calling generate_find() and calculate_number_items() and 
     # then composing and returning the message and numbers.
 
+    
+    finds = generate_find()
+    number_items = calculate_number_items(number_dives)
+
+    return "In {} dives, you found {} {}".format(number_dives, number_items, finds)
     raise NotImplementedError()
 
 
