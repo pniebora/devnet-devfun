@@ -61,7 +61,7 @@ def create_dive_finds(number_dives):
     number_items = calculate_number_items(number_dives)
 
     return "In {} dives, you found {} {}".format(number_dives, number_items, finds)
-    raise NotImplementedError()
+    #raise NotImplementedError()
 
 
 def main():
